@@ -1,0 +1,19 @@
+{
+    "name": "pxt-ose-base",
+    "version": "1.0.0",
+    "description": "Dependencies for pxt-ose-modules.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:jacdac/pxt-jacdac#v1.9.41"
+    },
+    "files": [
+        "common/drawers.ts",
+        "common/enums.ts"
+    ],
+    "testFiles": [],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ]
+}
