@@ -1,0 +1,25 @@
+{
+    "name": "ose-servo-base",
+    "version": "1.1.0",
+    "description": "OpenSciEd generic servo client",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:jacdac/pxt-jacdac#v1.9.41",
+        "jacdac-servo": "github:jacdac/pxt-jacdac/servo#v1.9.41"
+    },
+    "files": [
+        "client.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
