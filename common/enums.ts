@@ -8,4 +8,11 @@ namespace opensciedEnums {
         //% block="under"
         Under,
     }
+
+    export const enum ClockwiseCounterclockwise {
+        //% block="↻"
+        Clockwise,
+        //% block="↺"
+        Counterclockwise,
+    }
 }
