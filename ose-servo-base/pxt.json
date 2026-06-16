@@ -1,6 +1,6 @@
 {
     "name": "ose-servo-base",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "OpenSciEd generic servo client",
     "license": "MIT",
     "dependencies": {
