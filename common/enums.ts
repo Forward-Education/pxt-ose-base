@@ -9,6 +9,13 @@ namespace opensciedEnums {
         Under,
     }
 
+    export const enum TemperatureUnit {
+        //% block="°C"
+        Celsius,
+        //% block="°F"
+        Fahrenheit,
+    }
+
     export const enum ClockwiseCounterclockwise {
         //% block="↻"
         Clockwise,
