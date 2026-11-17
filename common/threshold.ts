@@ -1,7 +1,7 @@
 namespace opensciedModules {
     /**
      * Compares a reading to a threshold for the threshold blocks.
-     * over: >, at or over: >=, under: <, at or under: <=
+     * Over and under both include the threshold value: over is >=, under is <=.
      */
     export function compareToThreshold(
         reading: number,
@@ -10,12 +10,8 @@ namespace opensciedModules {
     ): boolean {
         switch (direction) {
             case opensciedEnums.OverUnder.Over:
-                return reading > threshold
-            case opensciedEnums.OverUnder.AtOrOver:
                 return reading >= threshold
             case opensciedEnums.OverUnder.Under:
-                return reading < threshold
-            case opensciedEnums.OverUnder.AtOrUnder:
                 return reading <= threshold
         }
         return false

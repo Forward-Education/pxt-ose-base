@@ -5,12 +5,8 @@ namespace opensciedEnums {
     export const enum OverUnder {
         //% block="over"
         Over,
-        //% block="at or over"
-        AtOrOver,
         //% block="under"
         Under,
-        //% block="at or under"
-        AtOrUnder,
     }
 
     export const enum TemperatureUnit {
