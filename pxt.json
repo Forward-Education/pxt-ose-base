@@ -9,7 +9,8 @@
     },
     "files": [
         "common/drawers.ts",
-        "common/enums.ts"
+        "common/enums.ts",
+        "common/threshold.ts"
     ],
     "testFiles": [],
     "public": true,
