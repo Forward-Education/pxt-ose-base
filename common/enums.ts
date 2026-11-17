@@ -3,9 +3,9 @@
 
 namespace opensciedEnums {
     export const enum OverUnder {
-        //% block="over"
+        //% block="over (≥)"
         Over,
-        //% block="under"
+        //% block="under (≤)"
         Under,
     }
 
